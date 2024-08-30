@@ -1,0 +1,118 @@
+.opacity {
+  opacity: .80;
+}
+
+.gallery-section {
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    margin:0 auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    position: relative;
+}
+
+.gallery-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(0.3);
+}
+
+.gallery-text {
+  position: absolute;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 2;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.margin-bottom-navbar{
+  margin-top: 100px;
+}
+
+.card-img{
+  border: 1px solid white;
+  border: transparent !important;
+  margin: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+}
+
+.container-card{
+  display: flex;
+  margin: 10px;
+}
+.gallery-container{
+  border: none !important;
+}
+
+.card-img-top {
+  height: 190px; 
+  object-fit: cover;
+  cursor: pointer !important;
+}
+.card-video{
+  width: 50%;
+}
+.nav-link.active {
+  color: #af8f6f !important;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 0.5s ease-in-out;
+}
+/* pop-up */
+.modal-header{
+  border: none !important;
+}
+#modalImage{
+  border-radius: 10px!important;
+  width: 30px;
+}
+.modal-body{
+  background-color: #161616;
+}
+#modalDescription{
+  color: #ffffff;
+  font-size: 1rem;
+}
+.button-header{
+  width: 100% !important;
+}
+.close-btn{
+  float: right;
+}
+
+@media (max-width: 500px){
+  #modalImage{
+    border-radius: 10px !important;
+    width: 30px;
+  }
+  #modalDescription{
+    color: #ffffff;
+    font-size: 1rem;
+  }
+}
